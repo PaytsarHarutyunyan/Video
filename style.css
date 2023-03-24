@@ -1,0 +1,60 @@
+#my-video {
+  width: 640px;
+  height: 360px;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+
+#video-container {
+  position: relative;
+  width: 640px;
+  height: 360px;
+}
+
+#btn {
+  background-color: rgb(166, 174, 174);
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+
+#play-pause-button {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 25px solid #fff;
+  cursor: pointer;
+}  
+
+ #video-controls {
+  display: flex;
+  width: 620px;
+  margin: -40px 0 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#download-button {
+  background-color: rgb(12, 12, 101);
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
